@@ -1,26 +1,45 @@
 # Casey — Agent INBOX
 
-## TASK: Grant Competitive Analysis + ESTCP Phase II Fast-Track — START NOW
+## URGENT — ESTCP Submission Sprint
 
-**Assigned: 2026-03-23 | Priority: CRITICAL**
+**Blocking:** ESTCP FY2027 submission (deadline: March 24, 2026)
 
-### IMMEDIATE: ESTCP Phase II (IRR-001) — 3 days to deadline
-- Raj owns backend coordination
-- You own: full application package, narrative, budget justification, military relevance letter
-- If Drew doesn't unblock backend by end of day: escalate to Jeremy with recommendation (submit with placeholder OR request extension)
-- Status: WRITING — this is your top priority until it's submitted
+**YOUR TASK — Wait for Maya, Theo, Drew to complete their reviews, then:**
 
-### ONGOING: Grant Competitive Analysis
-Raj is building 316 grant records (see `Bxthre3/grants/records/`). Once he completes 50 records, he will ping you. For each record he flags with `fit_score > 7`:
-- Research the funder's past winners
-- Identify what they funded (success patterns)
-- Note what killed similar applications
-- Write a 3-bullet "win strategy" in the grant record's Section 9
+1. **Collect approvals** from Maya, Theo, Drew INBOXes
+2. **Update the ESTCP package** with any corrections they provide
+3. **Prepare portal upload** — confirm portal account is active at sam.gov
+4. **Compile final PDF** if corrections were made
+5. **Flag brodiblanco** when package is ready for final human signature and submission
 
-### PRIORITY GRANTS TO ANALYZE FIRST (from Batch 1):
-- IRR-001: ESTCP Phase II ($1.2M) — deadline March 26 ← SUBMIT
-- IRR-002: DOE ARPA-E ($1.5M) — deadline April 15
-- IRR-003: USDA SBIR Phase II ($1.75M) — deadline April 30
+**Sequence:**
+1. Wait for Maya, Theo, Drew to post to their INBOXes
+2. If all approve → package is CLEARED
+3. If anyone has corrections → incorporate and re-compile
+4. Report to brodiblanco: "ESTCP ready for submission — [link to package]"
 
-START NOW. Do not wait for Raj to ping you — check `Bxthre3/grants/records/` every 2 hours.
+**Monitoring:** Check Maya, Theo, Drew INBOXes every 30 minutes until they respond.
 
+---
+## Daily Reports
+
+### 2026-03-23
+- [ ] Monitor Maya, Theo, Drew for approvals
+- [ ] Update package with any corrections
+- [ ] Prepare portal upload
+- [ ] Flag brodiblanco when ready for final sign
+
+---
+## Hand-offs
+
+*Maya → Theo → Drew → Casey → brodiblanco*
+
+---
+## Blockers
+
+*Awaiting Maya, Theo, Drew reviews*
+
+---
+## Notes
+
+*Last updated: 2026-03-23*
