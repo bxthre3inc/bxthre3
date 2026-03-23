@@ -84,7 +84,7 @@ Nesting a `Bxthre3/` directory inside any project creates a circular reference l
 
 ### About the-rain-project
 
-`the-rain-project.git` is structurally identical to `bxthre3.git` — it was an early duplicate meta-repo. It has no active development. Its `.gitmodules` references sibling projects that are already tracked by the parent. It should be deprecated once its content is fully migrated to the canonical `bxthre3.git` structure.
+`the-rain-project.git` is an arbitrage intelligence and notifications tool — distinct from the meta-repo structure. Its actual purpose is arbitrage signal processing and alerting, not god-view project tracking. The `Bxthre3/` nested inside it (now removed) was an accidental copy of the meta-repo, not part of its intentional design.
 
 ---
 
