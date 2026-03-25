@@ -1,7 +1,7 @@
 # AGENTS.md — Bxthre3 Workspace Memory Index
 
 > **Last Updated:** 2026-03-24
-> **Purpose:** Routing index — tells agents where to find and store information.
+> **Purpose:** Routing index — tells all agents where to find and store information.
 
 ---
 
@@ -9,11 +9,10 @@
 
 | Store | Location | What It Holds |
 |---|---|---|
-| **Supermemory** | `/home/.z/supermemory/` | Patterns, observations, preferences (structured + human-readable) |
+| **Supermemory** | `/home/.z/supermemory/` | Patterns, observations, preferences |
 | **Agent INBOXes** | `Bxthre3/INBOX/agents/` | One `.md` per agent — daily reports, escalations, hand-offs |
-| **Department INBOXes** | `Bxthre3/INBOX/departments/` | One `.md` per dept — engineering, legal, grants, etc. |
-| **Canonical INBOX** | `Bxthre3/INBOX.md` | **Only INBOX that goes to brodiblanco** — P1s, decisions needed |
-| **Supermemory Index** | `/home/.z/supermemory/patterns.md` | Human-readable memory summary |
+| **Department INBOXes** | `Bxthre3/INBOX/departments/` | Engineering, legal, grants, etc. |
+| **Canonical INBOX** | `Bxthre3/INBOX.md` | **P1s only → brodiblanco** |
 
 ---
 
@@ -21,76 +20,74 @@
 
 | Project | Path | Description |
 |---|---|---|
-| **Irrig8** (primary — was FarmSense) | `Bxthre3/projects/the-irrig8-project/` | Precision agriculture OS, IoT irrigation |
+| **Irrig8** | `Bxthre3/projects/the-irrig8-project/` | Precision agriculture OS, IoT irrigation |
 | **Valley Players Club** | `Bxthre3/projects/the-valleyplayersclub-project/` | Sweepstakes gaming, cash-in-person |
 | **The Starting 5** | `Bxthre3/the-starting5-project/` | AI co-founders SaaS |
-| **ARD / Oferta** | `Bxthre3/projects/the-ard-project/` | 802 Morton St real estate arbitrage deal — branded as "Oferta" at `/offer` |
-| **The Rain Project** | `Bxthre3/projects/the-rain-project/` | Arbitrage intelligence + notifications tool |
-
-## Repo Structure
-
-- **Meta-repo:** `bxthre3inc/bxthre3` — parent repo tracking all projects as submodules
-- **6 Submodules (all on GitHub):**
-  - `Bxthre3/projects/the-irrig8-project` → `bxthre3inc/irrig8`
-  - `Bxthre3/projects/the-agentos-project` → `bxthre3inc/the-agentos-project`
-  - `Bxthre3/projects/the-zoe-project` → `bxthre3inc/the-zoe-project`
-  - `Bxthre3/projects/the-ard-project` → `bxthre3inc/the-ard-project`
-  - `Bxthre3/projects/the-rain-project` → `bxthre3inc/the-rain-project`
-  - `Bxthre3/projects/the-valleyplayersclub-project` → `bxthre3inc/the-valleyplayersclub-project`
+| **ARD / Oferta** | `Bxthre3/projects/the-ard-project/` | 802 Morton St real estate arbitrage |
+| **The Rain Project** | `Bxthre3/projects/the-rain-project/` | Arbitrage intelligence + notifications |
+| **Trenchbabys** | `Bxthre3/projects/the-trenchbabys-project/` | Urban lifestyle retail — clothing, grooming, jewelry, events, Valley Grown |
+| **AgentOS** | `Bxthre3/projects/the-agentos-project/` | AI workforce orchestration |
+| **AgentOS Android** | `Bxthre3/projects/the-agentos-native/AgentOS-Native-Source/` | Native Android app (package: `com.agentosnative`) |
 
 ---
 
-## AgentOS / Zoe — The AI Workforce
+## AgentOS — Single Source of Truth
 
-AgentOS is Zoe — the AI workforce system. Zoe lives in two places:
+> **⚠️ Roster Merger — 2026-03-25:** org.ts and live API were diverged (org.ts had 24 fictional employees, live API had 14). Both now sync to the same 15-entity roster. Orphaned INBOXes flagged for department review.
 
-| Layer | Location | Purpose |
+### Architecture
+
+```
+Canonical data: the-agentos-project/core/hierarchy/org.ts  (19 employees)
+                 └─ used by: core/hierarchy/agentOSApi.ts  (serialization layer)
+                                              │
+                    ┌─────────────────────────┼─────────────────────────┐
+                    ▼                         ▼                         ▼
+           zo.space /aos            AgentOS Android App        Future clients
+     (https://brodiblanco.zo.space)  (BASE_URL: brodiblanco.zo.space/api/agentos/)
+                    │
+                    ▼
+     /api/agentos/status      → version, agents, metrics, tasks, integrations
+     /api/agentos/agents      → all 14 agents
+     /api/agentos/tasks        → all 15 active tasks
+     /api/agentos/org          → org chart (15 entries)
+     /api/agentos/workforce/metrics → workforce metrics
+```
+
+### Android App
+
+- **APK:** `Bxthre3/projects/the-agentos-native/AgentOS-Native-Source/app/build/outputs/apk/debug/app-debug.apk`
+- **Package:** `com.agentosnative`
+- **API:** `https://brodiblanco.zo.space/api/agentos/` (all 5 endpoints)
+- **Screens:** Dashboard, Agents, Tasks, Org Chart, Workforce, Inbox, Settings, Agent Detail
+
+### Webapp
+
+- **URL:** `https://brodiblanco.zo.space/aos` (private, requires auth)
+- **Source:** `Bxthre3/projects/the-agentos-project/` (zo.space routes)
+- **6 Tabs:** Status, Agents, Tasks, Org Chart, Starting 5, Integrations
+
+### Agent INBOXes
+
+| Agent | INBOX Path | Last Updated |
 |---|---|---|
-| **Core AI identity** | `Bxthre3/projects/the-zoe-project/SOUL.md` | Zoe's personality, behavior, values |
-| **Workforce INBOX** | `Bxthre3/INBOX/agents/` | Maya, Raj, Casey, Drew, Theo, Taylor, Sam, Iris, Sentinel, etc. |
-| **Dashboard (wrapper)** | `Bxthre3/projects/the-agentos-project/` | Zo Site — `/aos` dashboard UI at `zo.space` |
-| **Workforce status** | `/home/.z/employee-status/` | Live roster and agent health |
-
-### Active Agents
-
-Maya (CTO), Drew (COO), Raj (Grant Coordinator), Casey (Grant Coordinator), Theo (Field Systems), Taylor (Sales), Sam (Legal), Iris (Investor Relations), Sentinel (Security), Zoe (COO/Orchestrator)
-
-### AgentOS Dashboard
-
-Public URL: `https://brodiblanco.zo.space/aos`
-Internal: `https://aos-brodiblanco.zocomputer.io`
-API: `https://aos-brodiblanco.zocomputer.io/api/agentos/status`
+| zoe | `Bxthre3/INBOX/agents/zoe.md` | 2026-03-24 |
+| pulse | `Bxthre3/INBOX/agents/pulse.md` | 2026-03-24 |
+| sentinel | `Bxthre3/INBOX/agents/sentinel.md` | 2026-03-23 |
+| iris | `Bxthre3/INBOX/agents/iris.md` | 2026-03-24 |
+| maya | `Bxthre3/INBOX/agents/maya.md` | 2026-03-24 |
+| drew | `Bxthre3/INBOX/agents/drew.md` | 2026-03-24 |
+| raj | `Bxthre3/INBOX/agents/raj.md` | 2026-03-24 |
+| casey | `Bxthre3/INBOX/agents/casey.md` | 2026-03-24 |
+| theo | `Bxthre3/INBOX/agents/theo.md` | 2026-03-24 |
 
 ---
 
 ## Architecture & Nesting Protocol
 
-### Repo Topology
+### Nesting Is Forbidden
 
-```
-bxthre3inc/bxthre3.git          ← PARENT META-REPO (workspace root)
-├── Bxthre3/                     ← WORKING DIRECTORY (AGENTS.md, INBOX/, agents/)
-└── Bxthre3/projects/            ← ALL PROJECTS ARE PEER SUBMODULES
-    ├── the-agentos-project.git   ← AgentOS dashboard wrapper
-    ├── the-ard-project.git       ← ARD real estate deal
-    ├── the-irrig8-project.git   ← Irrig8 (primary product)
-    ├── the-rain-project.git      ← Rain arbitrage tool
-    ├── the-valleyplayersclub-project.git
-    └── the-zoe-project.git       ← Zoe/AgentOS core (SOUL.md, workforce)
-```
-
-### Why Nesting Is Forbidden
-
-Nesting a `Bxthre3/` directory inside any project creates a circular reference loop:
-- `bxthre3.git` → submodule `the-zoe-project.git` → nested `Bxthre3/` → contains another copy of all submodules
-- This causes git to lose track of which commit is canonical, creates duplicate INBOX paths, and doubles storage
-- **Historical damage:** `the-zoe-project` accumulated ~2GB of nested Bxthre3 artifacts before cleanup (2026-03-23)
-
-### Golden Rules
-
-1. **No `Bxthre3/` inside any project submodule.** Ever. Not even temporarily.
-2. **Projects are peers, not children.** No project path under another project's path.
-3. **Cross-project references via submodule dependency, not copy.** If Project A needs files from Project B, add Project B as a submodule inside Project A — not a copy of the whole meta-repo.
+No `Bxthre3/` inside any project submodule. Projects are peers, not children.
 
 ---
 
@@ -98,32 +95,32 @@ Nesting a `Bxthre3/` directory inside any project creates a circular reference l
 
 ```
 Any agent creates a report → Bxthre3/INBOX/agents/{agent-name}.md
-Any department report       → Bxthre3/INBOX/departments/{dept}.md
-P0/P1 escalations          → Bxthre3/INBOX.md  (+ SMS to brodiblanco)
-Routine status             → Agent INBOX only (no alert)
+Escalation P1             → Bxthre3/INBOX.md (→ brodiblanco via SMS)
+Department report          → Bxthre3/INBOX/departments/{dept}.md
 ```
 
-**Canonical INBOX.md is the ONLY file that triggers SMS to brodiblanco.**
+### Active Agents (18 AI + 1 Human = 19 total)
 
----
+| ID | Name | Role | Department | Status |
+|---|---|---|---|---|
+| brodiblanco | brodiblanco | Founder & CEO | Executive | working |
+| zoe | Zoe | Chief of Staff | Executive | active |
+| atlas | Atlas | COO | Operations | active |
+| vance | Vance | Founders Assistant | Executive | monitoring |
+| pulse | Pulse | People Ops | Operations | active |
+| sentinel | Sentinel | System Monitor | Operations | monitoring |
+| iris | Iris | Engineering Lead | Engineering | active |
+| dev | Dev | Backend Engineer | Engineering | active |
+| sam | Sam | Data Analyst | Engineering | active |
+| taylor | Taylor | Security Engineer | Engineering | active |
+| theo | Theo | DevOps Engineer | Engineering | idle |
+| casey | Casey | Marketing Lead | Marketing | active |
+| maya | Maya | Grant Strategist | Grants | active |
+| raj | Raj | Legal & Compliance | Legal | idle |
+| drew | Drew | Sales Lead | Sales | idle |
+| irrig8 | Irrig8 Field Agent | Field Operations | Operations | active |
+| rain | RAIN | Regulatory Intelligence | Strategy | active |
+| vpc | VPC Agent | Gaming Operations | Operations | active |
+| trenchbabys | Trenchbabys Agent | Retail Operations | Sales | idle |
 
-## Naming Conventions
-
-- **Product name:** `Irrig8` (NOT FarmSense — that name is retired as of 2026-03-23)
-- **AI assistant name:** `Zoe` (sounds like Joey) — NOT "Zoe the AI" or similar
-- **ARD name:** `ARD` — not "Oferta" (Oferta was the 802 Morton St deal brand, now absorbed into ARD)
-- **Firmware version:** `v2.1` (current)
-- **Device codenames:** LRZ1, LRZ2, VFA, PMT, DHU, CSA (see `GLOSSARY.md`)
-- **Agent codenames:** Maya, Raj, Casey, Drew, Theo, Taylor, Sam, Iris, Sentinel, Zoe
-
----
-
-## Investor Deal Terms (Source of Truth)
-
-- **Cash Partnership minimum:** 1% equity (10,000+ shares of VPC)
-- **Regular investment partner:** Higher threshold than cash partnership — never conflate the two
-- All pitch materials must reflect correct minimums per investor type
-
----
-
-*This file is a routing index. For behavioral identity of Zoe, see `Bxthre3/projects/the-zoe-project/SOUL.md`.*
+> **Roster Merger — 2026-03-25:** Canonical roster now 19 (18 AI + brodiblanco). Previously diverged across 3 environments: org.ts had 24 fictional Arkad employees, shared/agent-os had 33 hardcoded agents, live zo.space API had 14. All 3 now unified at 19. 4 new vertical agents added: irrig8, rain, vpc, trenchbabys.
