@@ -1,1 +1,81 @@
-agentos-mobile.apk
+# === Build Artifacts ===
+*.apk
+*.aab
+*.ipa
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# === Credentials & Keys ===
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.ovpn
+.env
+.env.*
+!.env.example
+
+# === Sensitive Business Data ===
+Bxthre3/INBOX/investor-portal-db.json
+Bxthre3/INBOX/investor-portal-db-*.json
+Bxthre3/INBOX/**/**/secrets/
+Bxthre3/INBOX/**/**/credentials/
+Bxthre3/INBOX/**/**/*.key
+
+# === Node / Package Artifacts ===
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# === Java / Android ===
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+*.class
+*.jar
+
+# === Capacitor ===
+android/app/build/
+android/.gradle/
+android/build/
+ios/App/build/
+ios/App/Pods/
+
+# === Logs ===
+*.log
+logs/
+
+# === macOS ===
+.DS_Store
+
+# === Zo / Service Artifacts ===
+*.zo.log
+zo-site-*.log
+dev_shm_*
+
+# === Editor / IDE ===
+.vscode/
+.idea/
+*.swp
+
+# === Database (orphan at root) ===
+postgres-data/
+*.sqlite
+*.sqlite3
+*.db
+
+# === HTML Deck Build Artifacts ===
+*_DECK.html
+*_DECK.tsx

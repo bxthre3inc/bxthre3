@@ -1,13 +1,12 @@
 {
-  "timestamp": "2026-03-25T21:45:00Z",
-  "agent": "pulse",
-  "role": "System Health Monitor",
+  "timestamp": "2026-03-25T23:30:00Z",
   "status": "UP",
-  "service": "Unified App (backend+frontend)",
+  "service": "Unified App",
   "port": 3888,
   "health_endpoint": "/health",
   "http_status": 200,
   "response": "WebSocket server is running",
-  "uptime_streak": 16,
-  "last_check": "2026-03-25 15:45 MDT"
+  "uptime_streak": 42,
+  "last_check": "2026-03-25T23:30:00Z",
+  "next_check": "2026-03-26T00:30:00Z"
 }

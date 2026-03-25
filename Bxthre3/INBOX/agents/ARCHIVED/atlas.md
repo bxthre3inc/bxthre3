@@ -1,0 +1,69 @@
+
+---
+## [CCR-P1] Stub Finder → atlas | 3/24/2026, 10:59:08 PM
+
+**Subject:** [P1] Stub Finder: 12 P1 code issues — fix required
+
+CODE CHANGE REQUEST — from Stub Finder
+
+Agent: atlas
+Findings: 12 total (0 P0, 12 P1, 0 P2)
+Files affected: Bxthre3/shared/agent-os/core/hierarchy/org.ts, Bxthre3/shared/agent-os/core/hierarchy/agentOSApi.ts
+
+FINDINGS:
+  [P1] HARDCODE_MOCK — Bxthre3/shared/agent-os/core/hierarchy/org.ts:23
+  [P1] HARDCODE_MOCK — Bxthre3/shared/agent-os/core/hierarchy/org.ts:38
+  [P1] HARDCODE_MOCK — Bxthre3/shared/agent-os/core/hierarchy/org.ts:22
+  [P1] HARDCODE_MOCK — Bxthre3/shared/agent-os/core/hierarchy/org.ts:38
+  [P1] HARDCODE_MOCK — Bxthre3/shared/agent-os/core/hierarchy/org.ts:38
+  [P1] HARDCODE_MOCK — Bxthre3/shared/agent-os/core/hierarchy/org.ts:47
+  [P1] HARDCODE_MOCK — Bxthre3/shared/agent-os/core/hierarchy/org.ts:48
+  [P1] HARDCODE_MOCK — Bxthre3/shared/agent-os/core/hierarchy/org.ts:20
+  [P1] HARDCODE_MOCK — Bxthre3/shared/agent-os/core/hierarchy/org.ts:20
+  [P1] HARDCODE_MOCK — Bxthre3/shared/agent-os/core/hierarchy/org.ts:20
+  [P1] HARDCODE_MOCK — Bxthre3/shared/agent-os/core/hierarchy/agentOSApi.ts:208
+  [P1] HARDCODE_MOCK — Bxthre3/shared/agent-os/core/hierarchy/agentOSApi.ts:208
+
+REQUIRED CHANGES:
+  1. Fake/stale agent ID "architect" in code — not in canonical roster
+  2. Fake/stale agent ID "brand" in code — not in canonical roster
+  3. Fake/stale agent ID "nexus" in code — not in canonical roster
+  4. Fake/stale agent ID "blueprint" in code — not in canonical roster
+  5. Fake/stale agent ID "palette" in code — not in canonical roster
+  6. Fake/stale agent ID "vault" in code — not in canonical roster
+  7. Fake/stale agent ID "trace" in code — not in canonical roster
+  8. Fake/stale agent ID "jordan" in code — not in canonical roster
+  9. Fake/stale agent ID "alex" in code — not in canonical roster
+  10. Fake/stale agent ID "riley" in code — not in canonical roster
+  11. Fake/stale agent ID "jordan" in code — not in canonical roster
+  12. Fake/stale agent ID "alex" in code — not in canonical roster
+
+FIX DETAIL:
+  File: Bxthre3/shared/agent-os/core/hierarchy/org.ts:23
+    Fix: Remove "architect". Canonical roster: brodiblanco, zoe, atlas, vance, pulse, sentinel, iris, dev, sam, taylor, theo, casey, raj, maya, drew, irrig8, rain, vpc, trenchbabys.
+  File: Bxthre3/shared/agent-os/core/hierarchy/org.ts:38
+    Fix: Remove "brand". Canonical roster: brodiblanco, zoe, atlas, vance, pulse, sentinel, iris, dev, sam, taylor, theo, casey, raj, maya, drew, irrig8, rain, vpc, trenchbabys.
+  File: Bxthre3/shared/agent-os/core/hierarchy/org.ts:22
+    Fix: Remove "nexus". Canonical roster: brodiblanco, zoe, atlas, vance, pulse, sentinel, iris, dev, sam, taylor, theo, casey, raj, maya, drew, irrig8, rain, vpc, trenchbabys.
+  File: Bxthre3/shared/agent-os/core/hierarchy/org.ts:38
+    Fix: Remove "blueprint". Canonical roster: brodiblanco, zoe, atlas, vance, pulse, sentinel, iris, dev, sam, taylor, theo, casey, raj, maya, drew, irrig8, rain, vpc, trenchbabys.
+  File: Bxthre3/shared/agent-os/core/hierarchy/org.ts:38
+    Fix: Remove "palette". Canonical roster: brodiblanco, zoe, atlas, vance, pulse, sentinel, iris, dev, sam, taylor, theo, casey, raj, maya, drew, irrig8, rain, vpc, trenchbabys.
+  File: Bxthre3/shared/agent-os/core/hierarchy/org.ts:47
+    Fix: Remove "vault". Canonical roster: brodiblanco, zoe, atlas, vance, pulse, sentinel, iris, dev, sam, taylor, theo, casey, raj, maya, drew, irrig8, rain, vpc, trenchbabys.
+  File: Bxthre3/shared/agent-os/core/hierarchy/org.ts:48
+    Fix: Remove "trace". Canonical roster: brodiblanco, zoe, atlas, vance, pulse, sentinel, iris, dev, sam, taylor, theo, casey, raj, maya, drew, irrig8, rain, vpc, trenchbabys.
+  File: Bxthre3/shared/agent-os/core/hierarchy/org.ts:20
+    Fix: Remove "jordan". Canonical roster: brodiblanco, zoe, atlas, vance, pulse, sentinel, iris, dev, sam, taylor, theo, casey, raj, maya, drew, irrig8, rain, vpc, trenchbabys.
+  File: Bxthre3/shared/agent-os/core/hierarchy/org.ts:20
+    Fix: Remove "alex". Canonical roster: brodiblanco, zoe, atlas, vance, pulse, sentinel, iris, dev, sam, taylor, theo, casey, raj, maya, drew, irrig8, rain, vpc, trenchbabys.
+  File: Bxthre3/shared/agent-os/core/hierarchy/org.ts:20
+    Fix: Remove "riley". Canonical roster: brodiblanco, zoe, atlas, vance, pulse, sentinel, iris, dev, sam, taylor, theo, casey, raj, maya, drew, irrig8, rain, vpc, trenchbabys.
+  File: Bxthre3/shared/agent-os/core/hierarchy/agentOSApi.ts:208
+    Fix: Remove "jordan". Canonical roster: brodiblanco, zoe, atlas, vance, pulse, sentinel, iris, dev, sam, taylor, theo, casey, raj, maya, drew, irrig8, rain, vpc, trenchbabys.
+  File: Bxthre3/shared/agent-os/core/hierarchy/agentOSApi.ts:208
+    Fix: Remove "alex". Canonical roster: brodiblanco, zoe, atlas, vance, pulse, sentinel, iris, dev, sam, taylor, theo, casey, raj, maya, drew, irrig8, rain, vpc, trenchbabys.
+
+Auto-fixable: 12 / 12
+
+*Auto-generated by Stub Finder v2. P0 findings escalate to canonical INBOX.*

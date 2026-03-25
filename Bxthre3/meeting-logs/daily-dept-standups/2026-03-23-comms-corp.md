@@ -1,0 +1,25 @@
+# Daily Department Standup — Comms-Corp — 2026-03-23
+
+**Date:** 2026-03-23  
+**Scheduled:** 8:15 AM America/Denver  
+**Status:** NO-SHOW
+
+## Attendees
+- *[Sync orchestrator blocked — ORG-CHART.md missing]*
+
+## Agenda
+- Yesterday's accomplishments
+- Today's priorities
+- Blockers and dependencies
+
+## Discussion
+*Sync orchestrator could not distribute standup prompts due to missing ORG-CHART.md and meeting-helpers.py.*
+
+## Decisions
+*None.*
+
+## Action Items
+*None.*
+
+---
+*Log written by Logger Agent at 2026-03-23 22:30 UTC (fallback — orchestrator blocked)*

@@ -1,0 +1,12 @@
+id,venture,partner_name,partner_type,status,stage,contact_name,contact_email,revenue_share_pct,agreement_signed,notes,created_date,last_updated
+IRR-001,Irrig8,Valley Irrigation,Pivot Manufacturer,identified,tier1,,,,no,40%+ market share, dealer network — priority outreach,2026-03-25,2026-03-25
+IRR-002,Irrig8,Reinke,Pivot Manufacturer,identified,tier1,,,,no,Independent dealer network — priority outreach,2026-03-25,2026-03-25
+IRR-003,Irrig8,Wilbur-Ellis,Ag Retailer,identified,tier1,,,,no,Retail footprint in San Luis Valley,2026-03-25,2026-03-25
+IRR-004,Irrig8,Nutrien,Ag Retailer,identified,tier2,,,,no,National footprint, co-op relationships,2026-03-25,2026-03-25
+IRR-005,Irrig8,CHS,Ag Retailer / Co-op,identified,tier2,,,,no,Farmer-owned co-op model,2026-03-25,2026-03-25
+IRR-006,Irrig8,Planet Labs,Satellite Imagery,identified,tier2,,,,no,Cloud-free 10m resolution data API,2026-03-25,2026-03-25
+IRR-007,Irrig8,USDA NRCS,Government,identified,tier2,,,,no,Grant pathway, regulatory credibility,2026-03-25,2026-03-25
+IRR-008,Irrig8,Colorado State University,Cooperative Extension,identified,tier2,,,,no,Pilot credibility, research partnership,2026-03-25,2026-03-25
+IRR-009,Irrig8,TBD local dealer,Local Farm Equipment Dealer,not_identified,tbd,,,,no,Target: Monte Vista + San Luis Valley dealers,2026-03-25,2026-03-25
+VPC-001,VPC,TBD affiliate network,Affiliate Manager,not_identified,tbd,,,,no,Target: iGaming affiliate networks,2026-03-25,2026-03-25
+VPC-002,VPC,TBD casino aggregator,Casino Aggregator,not_identified,tbd,,,,no,Target: sweepstakes + real-money aggregators,2026-03-25,2026-03-25

@@ -1,4 +1,0 @@
--keep class com.vpcnative.data.api.** { *; }
--keep class com.vpcnative.domain.model.** { *; }
--dontwarn okhttp3.**
--dontwarn retrofit2.**

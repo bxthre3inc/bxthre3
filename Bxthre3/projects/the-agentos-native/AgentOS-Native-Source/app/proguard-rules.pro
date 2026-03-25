@@ -1,0 +1,6 @@
+-keepattributes Signature
+-keepattributes *Annotation*
+-keep class com.agentosnative.domain.model.** { *; }
+-keep class com.agentosnative.data.api.** { *; }
+-dontwarn okhttp3.**
+-dontwarn retrofit2.**

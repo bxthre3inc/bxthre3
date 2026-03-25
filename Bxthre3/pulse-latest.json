@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-03-25T23:30:00Z",
+  "status": "UP",
+  "service": "Unified App",
+  "port": 3888,
+  "health_endpoint": "/health",
+  "http_status": 200,
+  "response": "WebSocket server is running",
+  "uptime_streak": 42
+}
