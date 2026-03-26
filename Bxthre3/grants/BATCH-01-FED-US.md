@@ -19,7 +19,7 @@
 | Portfolio Fit | Irrig8 / AgentOS |
 | Status | Not yet contacted |
 | Next Action | Draft SF-424, pull pilot data from LRZ1/LRZ2 sensors |
-| Notes | USDA NIFA administers. Phase I proof-of-concept. Strong fit with FarmSense deterministic OS. |
+| Notes | USDA NIFA administers. Phase I proof-of-concept. Strong fit with Irrig8 deterministic OS. |
 
 ---
 
@@ -174,7 +174,7 @@
 | Fit Score | 6/10 |
 | Portfolio Fit | Irrig8 (satellite integration) |
 | Status | Not yet contacted |
-| Next Action | Align with FarmSense satellite data pipeline |
+| Next Action | Align with Irrig8 satellite data pipeline |
 | Notes | AgREADI program. Check if satellite-soil moisture fusion qualifies. |
 
 ---
@@ -346,7 +346,7 @@
 | Fit Score | 8/10 |
 | Portfolio Fit | Irrig8 |
 | Status | Not yet contacted |
-| Next Action | Align with FarmSense satellite-soil moisture fusion pipeline |
+| Next Action | Align with Irrig8 satellite-soil moisture fusion pipeline |
 
 ---
 

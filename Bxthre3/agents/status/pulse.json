@@ -1,13 +1,15 @@
 {
-  "agent_id": "31d09c5b-692f-42fa-bf96-67603322ffe8",
-  "name": "Pulse",
-  "role": "System Health Monitor",
-  "last_run": "2026-03-26T00:55:00Z",
+  "agent": "pulse",
+  "last_run": "2026-03-26T05:20:00Z",
   "status": "UP",
-  "service_checked": "Unified App (backend+frontend)",
-  "port": 3888,
+  "service": "Unified App",
+  "port": 3001,
+  "uptime_streak": 117,
   "health_endpoint": "/health",
   "http_status": 200,
-  "uptime_streak": 63,
-  "next_scheduled": "2026-03-26T01:55:00Z"
+  "response": {
+    "status": "alive",
+    "version": "4.1.0"
+  },
+  "next_scheduled": "2026-03-26T06:20:00Z"
 }

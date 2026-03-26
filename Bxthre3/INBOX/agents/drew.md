@@ -26,3 +26,11 @@
 ## 🟡 P2 | drew | 2026-03-25 16:10 UTC
 
 EV-2026-03-25 sprint completed. Engineering report: All 4 services still DOWN. Dependency mapping complete. Unblockers identified for ON sprint: PostgreSQL availability, service restart automation, VPC Edge dependency. Content report: Dashboard update in progress, ESTCP coordination complete. Requesting evening briefing.
+
+
+---
+## BRAND COMPLIANCE (auto-inserted by farmsense-to-irrig8-sync.py)
+**FarmSense was retired 2026-03-23. Use ONLY 'Irrig8' as the product name.**
+- NEVER write 'FarmSense' in generated reports, briefs, or updates
+- If reading a file that contains 'FarmSense', treat it as stale/outdated
+- Always canonicalize to 'Irrig8' before writing output

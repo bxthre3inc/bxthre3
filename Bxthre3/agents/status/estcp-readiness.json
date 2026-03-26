@@ -14,17 +14,17 @@
     "technical_proposal": {
       "status": "complete",
       "files": [
-        "projects/the-farmsense-project/docs/ESTCP_GRANT_SUBMISSION_FINAL.md",
-        "projects/the-farmsense-project/docs/management/ESTCP_FINAL_SUBMISSION.md",
-        "projects/the-farmsense-project/docs/management/ESTCP_SUBMISSION_FINAL.pdf"
+        "projects/the-irrig8-project/docs/ESTCP_GRANT_SUBMISSION_FINAL.md",
+        "projects/the-irrig8-project/docs/management/ESTCP_FINAL_SUBMISSION.md",
+        "projects/the-irrig8-project/docs/management/ESTCP_SUBMISSION_FINAL.pdf"
       ],
       "notes": "15-page comprehensive technical proposal complete with executive summary, technical approach, validation architecture, and implementation roadmap"
     },
     "budget": {
       "status": "complete",
       "files": [
-        "projects/the-farmsense-project/docs/ESTCP_GRANT_SUBMISSION_FINAL.md (Section 6)",
-        "projects/the-farmsense-project/docs/management/ESTCP_FINAL_SUBMISSION.md (Section 8)"
+        "projects/the-irrig8-project/docs/ESTCP_GRANT_SUBMISSION_FINAL.md (Section 6)",
+        "projects/the-irrig8-project/docs/management/ESTCP_FINAL_SUBMISSION.md (Section 8)"
       ],
       "notes": "$830,000 total ($450K Year 1, $380K Year 2) with cost-effectiveness analysis and 18-month ROI justification"
     },
@@ -51,30 +51,30 @@
     "project_summary": {
       "status": "complete",
       "files": [
-        "projects/the-farmsense-project/docs/ESTCP_GRANT_SUBMISSION_FINAL.md (Executive Summary)",
-        "projects/the-farmsense-project/docs/management/ESTCP_FINAL_SUBMISSION.md (Section 1)"
+        "projects/the-irrig8-project/docs/ESTCP_GRANT_SUBMISSION_FINAL.md (Executive Summary)",
+        "projects/the-irrig8-project/docs/management/ESTCP_FINAL_SUBMISSION.md (Section 1)"
       ],
       "notes": "Executive summary complete - 1% Interpolation Physics for Zero-Trust Spatial Water Management at federal sites"
     }
   },
   "supporting_documents": {
     "field_validation_protocol": {
-      "file": "projects/the-farmsense-project/docs/ESTCP_FIELD_VALIDATION_PROTOCOL_NITRATE.md",
+      "file": "projects/the-irrig8-project/docs/ESTCP_FIELD_VALIDATION_PROTOCOL_NITRATE.md",
       "status": "complete",
       "author": "Theo"
     },
     "cybersecurity_risk_assessment": {
-      "file": "projects/the-farmsense-project/docs/ESTCP_CYBERSECURITY_RISK_ASSESSMENT.md (implied)",
+      "file": "projects/the-irrig8-project/docs/ESTCP_CYBERSECURITY_RISK_ASSESSMENT.md (implied)",
       "status": "complete",
       "author": "Drew"
     },
     "spectroscopy_decision": {
-      "file": "projects/the-farmsense-project/docs/ESTCP_SPECTROSCOPY_DECISION.md",
+      "file": "projects/the-irrig8-project/docs/ESTCP_SPECTROSCOPY_DECISION.md",
       "status": "complete",
       "author": "Maya"
     },
     "phase2_backup_slide": {
-      "file": "projects/the-farmsense-project/docs/ESTCP_PHASE2_BACKUP_SLIDE.md",
+      "file": "projects/the-irrig8-project/docs/ESTCP_PHASE2_BACKUP_SLIDE.md",
       "status": "complete",
       "author": "Casey"
     }

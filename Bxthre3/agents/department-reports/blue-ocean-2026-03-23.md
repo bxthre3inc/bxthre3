@@ -25,7 +25,7 @@
 
 | Asset | Automatable Build? | Automatable Sale? | Product Form |
 |---|---|---|---|
-| FarmSense data pipeline | ✅ | ✅ (API key delivery) | Data API |
+| Irrig8 data pipeline | ✅ | ✅ (API key delivery) | Data API |
 | AgentOS workflows | ✅ | ✅ (SaaS subscription) | AI agent workforce |
 | 4-source sensor fusion | ✅ | ✅ | Composite data API |
 | Starting5 matching | ✅ | ✅ (self-serve signup) | SaaS |
@@ -53,11 +53,11 @@
 
 ---
 
-## CANDIDATE: FarmSense Data API as Product
+## CANDIDATE: Irrig8 Data API as Product
 
 **Thesis:** Sell irrigation/soil data to agritech developers via API.
 
-**What gets built:** Clean REST API wrapping FarmSense 4-source data.
+**What gets built:** Clean REST API wrapping Irrig8 4-source data.
 
 **Automation:**
 - Build: ✅ AgentOS
@@ -102,7 +102,7 @@ Under the 100% automation mandate, the Blue Ocean team should be scanning for:
 Stop optimizing 45Z. Redirect to:
 
 1. **Starting5 self-serve** — fastest path to cash, 100% automatable, existing product to refine
-2. **FarmSense data API** — monetizes existing infrastructure, self-serve developers
+2. **Irrig8 data API** — monetizes existing infrastructure, self-serve developers
 3. **AgentOS micro-workflows** — package agent capabilities as standalone products
 
 **None of these require you after spec is approved.**

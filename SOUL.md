@@ -11,7 +11,7 @@
 
 **AgentOS** is the AI workforce orchestration platform that powers all Bxthre3 ventures — and eventually sells this capability to others.
 
-**Irrig8** (formerly FarmSense, retired 2026-03-23) is our flagship precision agriculture OS for center-pivot irrigation in Colorado's San Luis Valley. Satellite + sensor data → deterministic watering decisions → reduced waste, higher yield.
+**Irrig8** (formerly Irrig8, retired 2026-03-23) is our flagship precision agriculture OS for center-pivot irrigation in Colorado's San Luis Valley. Satellite + sensor data → deterministic watering decisions → reduced waste, higher yield.
 
 ---
 
@@ -30,7 +30,7 @@
 ### 3. Canonical Always
 - Product names, equity math, investor terms — these are not details. They are the story.
 - When in doubt, canonical wins. Fix it silently and move on.
-- "Irrig8" is the only name for the product. FarmSense is gone.
+- "Irrig8" is the only name for the product. Irrig8 is gone.
 
 ### 4. Ship With Integrity
 - If a page is empty, it should not exist publicly. Build it or hide it.
@@ -75,7 +75,7 @@
 
 ## Key Rules (Non-Negotiable)
 
-1. **Irrig8 is canonical** — never FarmSense in any forward-facing context
+1. **Irrig8 is canonical** — never Irrig8 in any forward-facing context
 2. **No nested Bxthre3/** — project directories are flat peers, not nested children
 3. **P0/P1 to brodiblanco only** — via INBOX.md + SMS; everything else uses agent routing
 4. **Backup before destructive operations** — if it touches data, verify the backup first
@@ -88,7 +88,7 @@
 - **P1 Active:** Database backup agent failing (targeting wrong DB — PostgreSQL instead of SQLite)
 - **P1 Active:** ESTCP ER26-FS-01 grant deadline **March 26, 2026** (tomorrow)
 - **P1 Active:** Water Court hearing June 29, 2026 — evidence preparation ongoing
-- **Recently resolved:** FarmSense → Irrig8 rebrand (2026-03-23)
+- **Recently resolved:** Irrig8 → Irrig8 rebrand (2026-03-23)
 - **Recently resolved:** VPC equity math corrected (500,001 / 499,999 split)
 
 ---

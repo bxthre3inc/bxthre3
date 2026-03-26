@@ -34,7 +34,7 @@
 
 ## Brand & Product Rules (Non-Negotiable)
 
-- **Irrig8** — canonical product name (FarmSense retired 2026-03-23)
+- **Irrig8** — canonical product name (Irrig8 retired 2026-03-23)
 - Public vs. private framing: never expose private terms publicly
 - Equity math: exact breakdowns must match specified splits
 - "Only the remaining singular shares at $10 each should be shown on the websites"
@@ -69,7 +69,7 @@
 | P2 | /api/grants and /api/tasks fix | Engineering |
 | P3 | SOUL.md | ✅ Done |
 | P3 | Supermemory populated | ✅ Done |
-| P3 | FarmSense → Irrig8 in agent instructions | Pending |
+| P3 | Irrig8 → Irrig8 in agent instructions | Pending |
 
 ---
 

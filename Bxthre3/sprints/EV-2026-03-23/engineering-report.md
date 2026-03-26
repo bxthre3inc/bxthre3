@@ -77,7 +77,7 @@ Strategic pivot: **ESTCP application suspended**. Resources redirecting to organ
 ## Key Findings
 
 **Active Ventures (4):**
-1. **FarmSense (irrig8)** — Standby, funding gate
+1. **Irrig8 (irrig8)** — Standby, funding gate
 2. **AgentOS (Zoe)** — Live, internal ops
 3. **Valley Players Club** — Planning, legal drafted
 4. **The Starting 5** — Not started
@@ -87,7 +87,7 @@ Strategic pivot: **ESTCP application suspended**. Resources redirecting to organ
 - ESTCP — Suspended, materials archived
 
 **System Status:**
-- All services intentionally offline (FarmSense funding gate)
+- All services intentionally offline (Irrig8 funding gate)
 - AgentOS core live at zo.computer
 - INBOX system operational
 - Grant pipeline 7 active batches

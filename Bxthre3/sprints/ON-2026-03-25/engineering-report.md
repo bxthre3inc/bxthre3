@@ -12,8 +12,8 @@
 Engineering team focused on service recovery analysis and infrastructure hardening. No new service failures detected during sprint window. Continued degraded state on all 4 critical services.
 
 **Key Findings:**
-- FarmSense API (port 8001): DOWN (no change)
-- FarmSense Frontend (port 5174): DOWN (no change)
+- Irrig8 API (port 8001): DOWN (no change)
+- Irrig8 Frontend (port 5174): DOWN (no change)
 - VPC Edge (port 3001): DOWN (no change)
 - PostgreSQL (port 5432): DOWN (no change)
 

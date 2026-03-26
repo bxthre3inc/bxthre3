@@ -46,3 +46,11 @@
 **Description:** Hardcoded object literal return (mock/stub)
 **Snippet:** `return { consistencyScore, confidence: 75 };`
 **Required Action:** Replace stub with real implementation. File resolution in INBOX when fixed.
+
+
+---
+## BRAND COMPLIANCE (auto-inserted by farmsense-to-irrig8-sync.py)
+**FarmSense was retired 2026-03-23. Use ONLY 'Irrig8' as the product name.**
+- NEVER write 'FarmSense' in generated reports, briefs, or updates
+- If reading a file that contains 'FarmSense', treat it as stale/outdated
+- Always canonicalize to 'Irrig8' before writing output

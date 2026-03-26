@@ -20,7 +20,7 @@ The goal is NOT to become the dominant 45Z CI platform. It's to build something:
 ## WHAT TO BUILD (MINIMUM)
 
 ### Core Module: "Arid CI Scoring Engine"
-**Inputs (already in FarmSense stack):**
+**Inputs (already in Irrig8 stack):**
 - Satellite imagery (NDVI, evapotranspiration)
 - On-ground sensor suite (soil moisture, pump energy draw)
 - Neighboring system data (local weather, regional water table)
@@ -42,7 +42,7 @@ The goal is NOT to become the dominant 45Z CI platform. It's to build something:
 
 | Week | Action | Owner | Output |
 |---|---|---|---|
-| 1 | Map GREET inputs → FarmSense data fields | AgentOS (Blueprint) | Data mapping doc |
+| 1 | Map GREET inputs → Irrig8 data fields | AgentOS (Blueprint) | Data mapping doc |
 | 2 | Build CI scoring layer on existing pipeline | AgentOS (Engineering) | API endpoint: `/ci-score/{field_id}` |
 | 3 | Pull 3 years historical SLV sensor data → generate CI scores | AgentOS (Data) | Historical CI dataset |
 | 4 | Validate with 1 agronomist (remote, per-diem) | Human | GREET validation memo |
@@ -62,7 +62,7 @@ The goal is NOT to become the dominant 45Z CI platform. It's to build something:
 | Party | Why they'd want it | Urgency |
 |---|---|---|
 | **BASF Circalo** | Need arid-land data to complete national coverage | HIGH — just launched |
-| **Verity** | Data layer to compete with BASF; FarmSense = irrigation expertise they lack | HIGH |
+| **Verity** | Data layer to compete with BASF; Irrig8 = irrigation expertise they lack | HIGH |
 | **POET** | Vertical integration; own the CI data rather than buy from BASF | MEDIUM |
 | **Green Plains** | Same as POET; Nebraska operations align with arid-land thesis | MEDIUM |
 | **Syngenta / Corteva** | Embed in dealer network; sell to farmers as "CI-ready" | LOW-MEDIUM |
@@ -73,7 +73,7 @@ The goal is NOT to become the dominant 45Z CI platform. It's to build something:
 One signed pilot with an ethanol plant + real CI scores = proof it works.
 
 **Step 2 — Seed the market quietly**  
-Let it be known (via agronomist network, ethanol industry conferences, not PR) that FarmSense has arid-land CI data.
+Let it be known (via agronomist network, ethanol industry conferences, not PR) that Irrig8 has arid-land CI data.
 
 **Step 3 — Contact BASF AND Verity in same 2-week window**  
 Don't reveal you contacted the other. Neither will want the other to have it.
@@ -89,7 +89,7 @@ Whoever offers better terms (acquisition, licensing, partnership) wins.
 ## IP PROTECTION (CRITICAL BEFORE OUTREACH)
 
 Before any outreach:
-1. **Document the methodology** — How FarmSense maps irrigation energy to GREET CI. This is the IP.
+1. **Document the methodology** — How Irrig8 maps irrigation energy to GREET CI. This is the IP.
 2. **Do NOT publish** — Keep the arid-land CI mapping proprietary.
 3. **Consider provisional patent** — One-page filing on "Method for field-level carbon intensity scoring using multi-source irrigation energy data in arid regions." ~$5K external cost, AgentOS can draft.
 

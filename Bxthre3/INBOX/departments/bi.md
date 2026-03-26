@@ -17,7 +17,7 @@
 
 ## Active Work Streams
 
-### 1. Irrig8 / FarmSense Analytics
+### 1. Irrig8 / Irrig8 Analytics
 - **CAPEX/OPEX validation:** Complete (Day 3 report filed)
 - **Field sensor data:** Ready for modeling
 - **ESTCP data package:** Due March 24 — BI supporting evidence compilation

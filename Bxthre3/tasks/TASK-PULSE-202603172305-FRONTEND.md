@@ -7,7 +7,7 @@
 **Category:** service-downtime
 
 ## Issue
-FarmSense Frontend (localhost:5174) is DOWN - not responding to HTTP requests.
+Irrig8 Frontend (localhost:5174) is DOWN - not responding to HTTP requests.
 
 ## Resolution Steps
 1. Check service logs at /dev/shm/

@@ -248,7 +248,7 @@
 | Portfolio Fit | Irrig8 |
 | Status | Active programs |
 | Next Action | Contact ICRISAT; explore partnership for AI-driven crop monitoring |
-| Notes | ICRISAT showcased AI digital innovations at AI4Agri 2026 Conference. Good partner for satellite + AI crop monitoring. Aligns with FarmSense data pipeline. |
+| Notes | ICRISAT showcased AI digital innovations at AI4Agri 2026 Conference. Good partner for satellite + AI crop monitoring. Aligns with Irrig8 data pipeline. |
 
 ---
 

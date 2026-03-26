@@ -12,8 +12,8 @@
 Evening sprint focused on service restoration and dependency analysis from ON-2026-03-25. All 4 services remain in degraded state - continuing deep work on recovery path.
 
 **Key Findings:**
-- FarmSense API (port 8001): DOWN (no change)
-- FarmSense Frontend (port 5174): DOWN (no change)
+- Irrig8 API (port 8001): DOWN (no change)
+- Irrig8 Frontend (port 5174): DOWN (no change)
 - VPC Edge (port 3001): DOWN (no change)
 - PostgreSQL (port 5432): DOWN (no change)
 
@@ -46,7 +46,7 @@ Evening sprint focused on service restoration and dependency analysis from ON-20
 
 1. **PostgreSQL availability** - Cannot start services without DB
 2. **Service restart automation** - Need automated restart script once DB is online
-3. **VPC Edge dependency** - Requires FarmSense API to be healthy first
+3. **VPC Edge dependency** - Requires Irrig8 API to be healthy first
 
 ---
 

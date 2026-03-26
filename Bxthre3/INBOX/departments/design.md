@@ -4,7 +4,7 @@
 **Reports to:** Palette (Creative Director)
 
 ## Charter
-Design the physical aesthetics, ergonomics, and packaging for Irrig8 (formerly FarmSense) hardware products.
+Design the physical aesthetics, ergonomics, and packaging for Irrig8 (formerly Irrig8) hardware products.
 
 ## Products
 | Product | Deployment | Form Factor | IP Rating |

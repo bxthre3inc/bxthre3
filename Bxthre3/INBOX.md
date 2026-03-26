@@ -114,5 +114,40 @@ Key issues:
 
 ---
 
+## 🔴 P0 | ESTCP — CLOSED | press | 2026-03-26
+
+**Status:** NOT SUBMITTED — deadline passed.
+**Package:** Archived at `Bxthre3/projects/the-irrig8-project/docs/archive/ESTCP-suspended/`
+
+**Decisions made:**
+- UK FETF (UK-001): **SKIP** — no UK partner, not a current market
+- EIC Accelerator: **DEFER** — EU expansion not active
+- Village Capital LatAm: **SKIP** — not a priority
+
+**New mandate:** Fund everything. All 6 vectors. Irrig8 Monte Vista/Center CO pilot is the priority.
+
+**Irrig8 Monte Vista — Priority grants in research:**
+- CIG Colorado (FED-US-003) — LOI due 2026-04-30, ~$500K
+- EQIP 90% vendor enrollment — NRCS Monte Vista (719-589-4841)
+- CDPHE Water Conservation (STA-CO-010) — San Luis Valley fits
+- CO Climate Resilience (STA-CO-002) — deadline 2026-04-30
+
+**🔍 CLARIFICATION QUESTIONS — brodiblanco must answer this week:**
+
+1. **ARD** — What is the ARD project? Agricultural Real Estate Development — describe it in 2 sentences. Without this, we cannot write grants for it. Define or deprioritize.
+
+2. **Rain** — Is Rain operational? Who is the customer? Same issue — can't research grants without knowing what it is.
+
+3. **The Starting 5** — What is the actual product concept? Sports + AI — what specifically?
+
+4. **VPC $1,600** — Is the Wyoming LLC formation still needed? Can VPC fund it from the equity offering?
+
+5. **EQIP vendor** — Can Bxthre3 become an approved USDA NRCS EQIP vendor? This is a recurring revenue question, not just a grant. Answer first.
+
+**Database backup:** BROKEN — 0-byte dumps. Fix in progress.
+**Stripe:** Test mode — no real payments. Onboarding incomplete.
+
+---
+
 *All agent INBOXes: `Bxthre3/INBOX/agents/`*
 *All department INBOXes: `Bxthre3/INBOX/departments/`*

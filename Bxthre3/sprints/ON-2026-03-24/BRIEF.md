@@ -54,7 +54,7 @@ At sprint end:
 
 | Item | Status | Notes |
 |------|--------|-------|
-| FarmSense | STANDBY | Funding gate active |
+| Irrig8 | STANDBY | Funding gate active |
 | AgentOS | LIVE | zo.computer service operational |
 | Valley Players Club | PLANNING | Legal docs drafted, platform not started |
 | The Starting 5 | NOT STARTED | Needs definition sprint |

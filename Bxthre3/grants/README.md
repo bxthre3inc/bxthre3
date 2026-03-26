@@ -69,7 +69,7 @@ grants/
 - [ ] Submit ESTCP by March 26 deadline
 - [ ] Confirm Zo Space / Irrig8 demo is operational for reviewers
 - [ ] Update BATCH-01-FED-US.md with new Irrig8/AgentOS branding
-- [ ] Audit all active batches for FarmSense → Irrig8 rebrand completeness
+- [ ] Audit all active batches for Irrig8 → Irrig8 rebrand completeness
 
 ---
 

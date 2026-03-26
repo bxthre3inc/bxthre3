@@ -2,19 +2,19 @@ package com.bxthre3.agentos.network
 import com.bxthre3.agentos.data.*
 import com.google.gson.*
 object ApiService {
-    private const val BASE = "https://aos-brodiblanco.zocomputer.io/api/agentos"
+    private const val BASE = "https://brodiblanco.zo.space/api/agentos/android"
     private val gson = Gson()
     fun fetchSystemHealth() = SystemHealth(
         agentCount=25, activeAgents=14, idleAgents=9, blockedAgents=2,
         workQueueDepth=7, escalationCount=3, avgHealth=0.87f,
         uptime="145 cycles", diskUsage=80,
-        knownIssues=listOf("oracle.farmsense.io DOWN","farmsense-api restarted","disk 80%"))
+        knownIssues=listOf("oracle.irrig8.io monitoring","irrig8-api stable","disk 80%"))
     fun fetchAgents():List<Agent> = listOf(
         Agent("zoe","Zoe","Digital Assistant / UAO","Operations","standby",false,"2026-03-16T05:00Z",0.92f,146,listOf("24/7 assistant protocol ready"),listOf(),listOf(),null),
         Agent("maya","Maya","VP Engineering","Engineering","awake_processing",true,"2026-03-16T03:05Z",0.95f,33,listOf("Health endpoint corrected","Oracle removed"),listOf(),listOf(),null),
         Agent("drew","Drew","Senior Software Engineer","Engineering","awake_processing",true,"2026-03-16T01:50Z",0.88f,10,listOf("Heartbeat 110 wakeup"),listOf(),listOf(),null),
         Agent("raj","Raj","VP of Operations","Operations","awake_processing",true,"2026-03-15T20:00Z",0.90f,8,listOf("20:00 UTC check complete"),listOf(),listOf(),"2026-03-15T21:00Z"),
-        Agent("casey","Casey","Grant Coordinator","Grants","awake_processing",true,"2026-03-16T03:05Z",0.85f,11,listOf("ESTCP compiled"),listOf("Brand name decision pending"),listOf(),null),
+        Agent("casey","Casey","Grant Coordinator","Grants","awake_processing",true,"2026-03-16T03:05Z",0.85f,11,listOf("ESTCP compiled"),listOf("Irrig8 brand canonical"),listOf(),null),
         Agent("theo","Theo","Field Systems Engineer","Engineering","standby",false,"2026-03-16T05:00Z",0.78f,6,listOf("24/7 field monitor ready"),listOf(),listOf(),null),
         Agent("taylor","Taylor","Investor Relations Manager","Sales","standby",false,"2026-03-16T05:00Z",0.82f,6,listOf("Monday schedule ready"),listOf(),listOf(),null),
         Agent("sam","Sam","VP of Finance & Fundraising","Finance","standby",false,"2026-03-16T05:00Z",0.91f,5,listOf("2x daily check due"),listOf(),listOf(),null),
@@ -28,7 +28,7 @@ object ApiService {
         Agent("alex","Alex","Content & Documentation","Marketing","awake_processing",true,"2026-03-15T20:00Z",0.71f,3,listOf("Shift complete","No content tasks pending"),listOf(),listOf(),null),
         Agent("riley","Riley","Corporate Secretary","Legal","idle",false,"2026-03-14T20:15Z",0.69f,2,listOf("No governance tasks pending"),listOf(),listOf(),null),
         Agent("architect","Architect","Enterprise Architect","Strategy","active",true,"2026-03-16T10:00Z",0.88f,0,listOf("Blueprint v3 complete"),listOf(),listOf(),null),
-        Agent("brand","Brand","Brand Strategist","Marketing","active",true,"2026-03-16T09:00Z",0.75f,0,listOf("Irrig8 rebrand executed"),listOf("FarmSense retirement"),listOf(),null),
+        Agent("brand","Brand","Brand Strategist","Marketing","active",true,"2026-03-16T09:00Z",0.75f,0,listOf("Irrig8 rebrand executed"),listOf("Irrig8 retirement"),listOf(),null),
         Agent("blueprint","Blueprint","Product Architect","Product","active",true,"2026-03-16T08:00Z",0.82f,0,listOf("Feature specs v2"),listOf(),listOf(),null),
         Agent("sync","Sync","Integration Engineer","Engineering","active",true,"2026-03-16T11:00Z",0.91f,0,listOf("Airtable, Notion, Linear connected"),listOf(),listOf(),null),
         Agent("navigate","Navigate","Product Strategy","Product","active",true,"2026-03-16T10:30Z",0.79f,0,listOf("Growth roadmap complete"),listOf(),listOf(),null),
@@ -72,10 +72,10 @@ object ApiService {
         Starting5("Riley Park","Architect","Product Design","Starting5 SaaS feature spec",mapOf("specs" to 6,"user_stories" to 34,"epics" to 3),"active"))
     fun fetchEscalations():List<Escalation> = listOf(
         Escalation("esc-001","remy","3 P1 escalations blocked 21+ hours — brodiblanco bottleneck","P1",21,"open"),
-        Escalation("esc-002","casey","Brand name decision pending — ESTCP deadline March 26","P1",48,"open"),
+        Escalation("esc-002","casey","Irrig8 brand canonical — ESTCP deadline March 26","P1",48,"open"),
         Escalation("esc-003","maya","Oracle endpoint decision deadline passed","P1",72,"open"),
         Escalation("esc-004","avery","Disk space 80% — infrastructure threshold","P2",6,"monitoring"),
-        Escalation("esc-005","zoe","oracle.farmsense.io DOWN since March 10","P2",144,"monitoring"))
+        Escalation("esc-005","zoe","oracle.irrig8.io monitoring since March 10","P2",144,"monitoring"))
     fun fetchWorkQueue():List<WorkItem> = listOf(
         WorkItem("wq-001","avery","ESTCP Grant Proposal submission","P1","in_progress","2026-03-10","Brand decision"),
         WorkItem("wq-002","maya","Portal DNS decision — zo.computer URLs","P1","blocked","2026-03-14","Await brodiblanco"),

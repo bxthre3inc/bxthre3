@@ -14,8 +14,8 @@
 This evening deep-work sprint focused on service recovery and unblocking tomorrow's overnight sprint. All four critical services are currently **DOWN** — consistent with the degraded state observed in overnight sprint ON-2026-03-18.
 
 **Key Findings:**
-- FarmSense API (port 8001): DOWN
-- FarmSense Frontend (port 5174): DOWN
+- Irrig8 API (port 8001): DOWN
+- Irrig8 Frontend (port 5174): DOWN
 - VPC Edge (port 3001): DOWN
 - PostgreSQL (port 5432): DOWN
 
@@ -29,8 +29,8 @@ With only 3 days until the ESTCP Grant deadline, service restoration is **P0 pri
 
 | Item | Status | Notes |
 |------|--------|-------|
-| Restore FarmSense API (port 8001) | 🔴 DOWN | Requires immediate investigation |
-| Restore FarmSense Frontend (port 5174) | 🔴 DOWN | Depends on API |
+| Restore Irrig8 API (port 8001) | 🔴 DOWN | Requires immediate investigation |
+| Restore Irrig8 Frontend (port 5174) | 🔴 DOWN | Depends on API |
 | Restore PostgreSQL (port 5432) | 🔴 DOWN | Core data dependency |
 
 ### P1 — High
@@ -53,13 +53,13 @@ With only 3 days until the ESTCP Grant deadline, service restoration is **P0 pri
 
 1. **Database Layer**: PostgreSQL must be operational before any application services can function. This is the first unblocker.
 
-2. **API Layer**: FarmSense API (port 8001) must be restored to support the frontend and any grant-related data exports.
+2. **API Layer**: Irrig8 API (port 8001) must be restored to support the frontend and any grant-related data exports.
 
-3. **Frontend Layer**: FarmSense Frontend (port 5174) is needed for any user-facing validation of the grant demonstration.
+3. **Frontend Layer**: Irrig8 Frontend (port 5174) is needed for any user-facing validation of the grant demonstration.
 
 4. **Gaming Platform**: VPC Edge (port 3001) — lower priority for grant but should be restored for business continuity.
 
-**Recommendation:** Prioritize restoring PostgreSQL → FarmSense API → FarmSense Frontend in sequence. Leave VPC Edge for after core services are stable.
+**Recommendation:** Prioritize restoring PostgreSQL → Irrig8 API → Irrig8 Frontend in sequence. Leave VPC Edge for after core services are stable.
 
 ---
 
@@ -68,9 +68,9 @@ With only 3 days until the ESTCP Grant deadline, service restoration is **P0 pri
 | Action | Owner | Priority |
 |--------|-------|----------|
 | Investigate PostgreSQL startup failure | Drew | P0 |
-| Restore FarmSense API service | Drew | P0 |
+| Restore Irrig8 API service | Drew | P0 |
 | Verify all data connections post-restore | Drew | P0 |
-| Test FarmSense Frontend connectivity | Drew | P1 |
+| Test Irrig8 Frontend connectivity | Drew | P1 |
 | Document root cause of service failures | Drew | P2 |
 | Brief overnight sprint team on service status | Drew | P1 |
 

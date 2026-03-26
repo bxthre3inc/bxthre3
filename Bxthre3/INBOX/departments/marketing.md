@@ -20,5 +20,5 @@
 *(pending)*
 
 ## Notes
-- FarmSense is the primary marketing brand
+- Irrig8 is the primary marketing brand
 - Internal codename context: Irrig8 (product), Zoe (AI assistant), ARD (Arkad Digital)

@@ -21,7 +21,7 @@
 | 6 | Project Structure | 8/10 | 🟢→🟢 | All projects in `projects/`; vpc-start.sh path fixed |
 | 7 | Grants Pipeline | 7/10 | 🟢 | Active; ESTCP deadline Mar 26 is P1 |
 | 8 | Skills Infrastructure | 7/10 | 🟢 | All installed; no health checks |
-| 9 | Irrig8 IP & Strategy | 6/10 | 🟡 | Grant-first documented; FarmSense retired correctly |
+| 9 | Irrig8 IP & Strategy | 6/10 | 🟡 | Grant-first documented; Irrig8 retired correctly |
 | 10 | Documentation & Memory | 6/10 | 🔴→🟡 | SOUL.md created; AGENTS.md current |
 | 11 | GitOps & Backup | 6/10 | 🟡 | Backup agent instruction fixed to SQLite |
 | 12 | Supermemory | 5/10 | 🔴→🟡 | Seeded with patterns, preferences, priority context |
@@ -39,7 +39,7 @@
 | 5 | `SOUL.md` created at workspace root | Documentation | ✅ Done |
 | 6 | Supermemory seeded with patterns + priorities | Knowledge | ✅ Done |
 | 7 | Agent status files updated (chronicler, casey) → Bxthre3 Inc | Branding | ✅ Done |
-| 8 | All FarmSense agent instructions verified (only "formerly FarmSense" context remains) | Branding | ✅ Verified |
+| 8 | All Irrig8 agent instructions verified (only "formerly Irrig8" context remains) | Branding | ✅ Verified |
 
 ---
 
@@ -63,7 +63,7 @@
 | Skill health checks — verify all installed skills work |
 | Grant pipeline tracker — visible status dashboard |
 | Irrig8 live product page (not just /projects/irrig8 redirect) |
-| FarmSense code review for transferable IP assets |
+| Irrig8 code review for transferable IP assets |
 | AgentOS Android APK — verify build state + real endpoint wiring |
 
 ---

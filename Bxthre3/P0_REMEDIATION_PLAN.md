@@ -16,13 +16,13 @@
 
 ### Pre-step verification
 ```bash
-grep -c "FarmSense\|farmsense" /home/workspace/Bxthre3/README.md
+grep -c "Irrig8\|irrig8" /home/workspace/Bxthre3/README.md
 grep -c "zoe-project" /home/workspace/Bxthre3/README.md
 ```
 
 ### Execute
 Overwrite `Bxthre3/README.md` with the corrected version (see file end for full content). Key changes:
-- Replace all `FarmSense` → `Irrig8`
+- Replace all `Irrig8` → `Irrig8`
 - Remove `zoe` as standalone project (absorbed into AgentOS — pending merge decision)
 - Remove `Android-Native IDE` (renamed to AgentOS Native)
 - Remove `ADM Standard` (never shipped)
@@ -32,9 +32,9 @@ Overwrite `Bxthre3/README.md` with the corrected version (see file end for full 
 
 ### Post-step verification
 ```bash
-grep -c "FarmSense\|farmsense" /home/workspace/Bxthre3/README.md
+grep -c "Irrig8\|irrig8" /home/workspace/Bxthre3/README.md
 # Must return 0
-grep "FarmSense\|farmsense" /home/workspace/Bxthre3/README.md
+grep "Irrig8\|irrig8" /home/workspace/Bxthre3/README.md
 # Must return nothing
 ```
 
@@ -286,8 +286,8 @@ After ALL steps complete, run this:
 ```bash
 echo "=== P0 VERIFICATION ==="
 echo ""
-echo "1. README FarmSense refs:"
-grep -c "FarmSense\|farmsense" /home/workspace/Bxthre3/README.md
+echo "1. README Irrig8 refs:"
+grep -c "Irrig8\|irrig8" /home/workspace/Bxthre3/README.md
 echo "2. Nested Bxthre3:"
 ls /home/workspace/Bxthre3/Bxthre3/ 2>&1
 echo "3. Loose APKs at root:"
@@ -366,7 +366,7 @@ Public presence: [brodiblanco.zo.space](https://brodiblanco.zo.space)
 
 ## Brand Note
 
-**Irrig8** is the canonical product name. FarmSense was retired on 2026-03-23. All materials should reference Irrig8.
+**Irrig8** is the canonical product name. Irrig8 was retired on 2026-03-23. All materials should reference Irrig8.
 
 ---
 

@@ -7,7 +7,7 @@
 
 | Project | Path | Status | Priority |
 |---------|------|--------|----------|
-| **FarmSense (irrig8)** | `projects/the-irrig8-project/` | 🟡 STANDBY — awaiting funding | P0 |
+| **Irrig8** | `projects/the-irrig8-project/` | 🟡 STANDBY — awaiting funding | P0 |
 | **AgentOS (Zoe)** | `projects/the-agentos-project/` + `projects/the-zoe-project/` | 🟢 ACTIVE — internal ops | P0 |
 | **Valley Players Club** | `projects/the-valleyplayersclub-project/` | 🟡 PLANNING — legal docs drafted | P1 |
 | **The Starting 5** | `projects/the-starting5-project/` | 🔴 NOT STARTED | P2 |
@@ -32,8 +32,8 @@
 
 | Service | Port | Status | Notes |
 |---------|------|--------|-------|
-| FarmSense API | 8001 | 🔴 OFFLINE | Intentional — funding gate |
-| FarmSense Frontend | 5174 | 🔴 OFFLINE | Intentional — funding gate |
+| Irrig8 API | 8001 | 🔴 OFFLINE | Intentional — funding gate |
+| Irrig8 Frontend | 5174 | 🔴 OFFLINE | Intentional — funding gate |
 | VPC Edge | 3001 | 🔴 OFFLINE | Not deployed |
 | PostgreSQL | 5432 | 🔴 OFFLINE | Standalone ready |
 
@@ -42,7 +42,7 @@
 ## System Dependencies
 
 ```
-FarmSense (irrig8)
+Irrig8
 ├── API (port 8001) — OFFLINE
 ├── Frontend (port 5174) — OFFLINE
 ├── PostgreSQL (port 5432) — OFFLINE

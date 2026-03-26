@@ -10,7 +10,7 @@
 
 | Severity | Issue | Status | Assigned | Notes |
 |---|---|---|---|---|
-| P1 | Hardcoded credentials in farmsense-code/backend/.env | **RESOLVED** | Sentinel | .env file removed, .gitignore added to exclude .env files, start.sh validates secrets in production |
+| P1 | Hardcoded credentials in irrig8-code/backend/.env | **RESOLVED** | Sentinel | .env file removed, .gitignore added to exclude .env files, start.sh validates secrets in production |
 
 ---
 

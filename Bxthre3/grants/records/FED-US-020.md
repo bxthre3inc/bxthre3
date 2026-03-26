@@ -55,7 +55,7 @@
 | days_until_deadline | 282 |
 | urgency | LOW |
 | next_action_date | 2026-03-24 |
-| next_action_description | Align with FarmSense satellite-soil moisture fusion pipeline |
+| next_action_description | Align with Irrig8 satellite-soil moisture fusion pipeline |
 
 ---
 
@@ -114,7 +114,7 @@
 
 **Notes:** 
 
-**Next Action:** Align with FarmSense satellite-soil moisture fusion pipeline
+**Next Action:** Align with Irrig8 satellite-soil moisture fusion pipeline
 
 **Status:** Not yet contacted
 

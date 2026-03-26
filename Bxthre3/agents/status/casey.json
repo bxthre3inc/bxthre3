@@ -27,7 +27,7 @@
       "amount": "$140M available",
       "fit": "HIGH",
       "status": "MONITORING",
-      "action": "Strong fit for FarmSense precision agriculture validation - review NOFO when released"
+      "action": "Strong fit for Irrig8 precision agriculture validation - review NOFO when released"
     },
     {
       "source": "PA Dept of Agriculture",
@@ -36,7 +36,7 @@
       "amount": "$10M total pool",
       "fit": "MEDIUM",
       "status": "EVALUATING",
-      "action": "Assess fit for FarmSense pilot expansion in Pennsylvania"
+      "action": "Assess fit for Irrig8 pilot expansion in Pennsylvania"
     }
   ],
   "escalation_flags": [],

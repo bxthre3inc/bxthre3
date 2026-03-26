@@ -12,8 +12,8 @@
 Evening sprint focused on addressing escalated items from ON-2026-03-24. Working on service restoration and system dependency mapping.
 
 **Key Findings:**
-- FarmSense API (port 8001): DOWN (no change)
-- FarmSense Frontend (port 5174): DOWN (no change)
+- Irrig8 API (port 8001): DOWN (no change)
+- Irrig8 Frontend (port 5174): DOWN (no change)
 - VPC Edge (port 3001): DOWN (no change)
 - PostgreSQL (port 5432): DOWN (no change)
 

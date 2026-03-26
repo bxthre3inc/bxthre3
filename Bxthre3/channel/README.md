@@ -8,7 +8,7 @@
 ## Overview
 
 This directory contains channel partnership materials for Bxthre3 ventures:
-- **Irrig8** (formerly FarmSense) — deterministic farming OS
+- **Irrig8** — deterministic farming OS
 - **Starting 5** — reseller/referral/white-label product line
 - **Zoe** — AgentOS developer ecosystem
 - **Valley Players Club** — sweepstakes gaming affiliate network

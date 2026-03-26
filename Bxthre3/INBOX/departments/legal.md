@@ -17,7 +17,7 @@
 | 2026-03-23 | ESTCP IP package finalized | ✅ Complete | Grant submission March 26 |
 | 2026-03-23 | Patent architecture documented | ✅ Complete | Provisional filing due April 23 |
 | 2026-03-23 | ARD/Oferta merger | ✅ Complete | 802 Morton St absorbed |
-| 2026-03-23 | Trademark farmsense.io | 👁️ Monitoring | Competitor using abandoned brand |
+| 2026-03-23 | Trademark irrig8.io | 👁️ Monitoring | Competitor using abandoned brand |
 
 ---
 

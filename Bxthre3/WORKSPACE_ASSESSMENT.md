@@ -7,7 +7,7 @@
 
 ## Executive Summary
 
-The Bxthre3 workspace has significant structural integrity issues stemming from organic growth without governance. 32 of 44 agent INBOXes were inactive noise. FarmSense references persisted past brand retirement. A nested `Bxthre3/Bxthre3/` directory violated single-level structure. APK artifacts lived at workspace root instead of project directories. Git submodule state was stale. That said: the core project portfolio is real, AgentOS is genuinely built and shipping APKs, Irrig8 has active IP strategy, and the INBOX routing system is sound.
+The Bxthre3 workspace has significant structural integrity issues stemming from organic growth without governance. 32 of 44 agent INBOXes were inactive noise. Irrig8 references persisted past brand retirement. A nested `Bxthre3/Bxthre3/` directory violated single-level structure. APK artifacts lived at workspace root instead of project directories. Git submodule state was stale. That said: the core project portfolio is real, AgentOS is genuinely built and shipping APKs, Irrig8 has active IP strategy, and the INBOX routing system is sound.
 
 **Overall Score: 4.8 / 10**
 
@@ -65,7 +65,7 @@ The Bxthre3 workspace has significant structural integrity issues stemming from 
 - Agent names: lowercase, no spaces ✅
 
 **Weaknesses:**
-- FarmSense appeared in README until 2026-03-25 (fixed today) ❌
+- Irrig8 appeared in README until 2026-03-25 (fixed today) ❌
 - `VPC-Native/` folder vs `the-valleyplayersclub-project/android-native/` — two different Android structures
 - `AgentOS-Native-Source/` vs `the-agentos-native/` — two different AgentOS Android structures
 - Agent naming inconsistency: `Palette.md` (capitalized) vs `palette.md` (lowercase) — both existed in INBOX
@@ -89,7 +89,7 @@ The Bxthre3 workspace has significant structural integrity issues stemming from 
 - `VPC-Native/` folder (Gradle source) at workspace root — should be inside `the-valleyplayersclub-project/`
 - 32 archived agent INBOX files staged via filesystem move (not git mv) — risk of future confusion
 - Submodules `the-agentos-project` and `the-irrig8-project` show as dirty — uncommitted work inside submodule
-- `farmsense-code/` folder still exists at workspace root with active Postgres data — legacy artifact
+- `irrig8-code/` folder still exists at workspace root with active Postgres data — legacy artifact
 
 **Findings:**
 ```
@@ -141,7 +141,7 @@ The Bxthre3 workspace has significant structural integrity issues stemming from 
 
 **Weaknesses:**
 - 4 projects have no README: ARD, Trenchbabys, Real Estate, Antigravity ❌
-- `farmsense-code/README.md` uses old FarmSense branding — no `Irrig8` mention
+- `irrig8-code/README.md` uses old Irrig8 branding — no `Irrig8` mention
 - VPC has 4 different deck versions in workspace root: inconsistency risk
 - No unified `CONTRIBUTING.md` or `ONBOARDING.md` for new agents
 - `Bxthre3/AGENTS.md` has some agents with stale/null last-seen timestamps
@@ -171,18 +171,18 @@ The Bxthre3 workspace has significant structural integrity issues stemming from 
 **Weaknesses:**
 - Two different Android project structures for VPC (duplication, maintenance burden)
 - Two different Android project structures for AgentOS (Capacitor vs native Kotlin)
-- `farmsense-code/` folder still has `docker-compose.yml`, active Postgres data — potential confusion with Irrig8
+- `irrig8-code/` folder still has `docker-compose.yml`, active Postgres data — potential confusion with Irrig8
 - `postgres-data/` at workspace root (not inside any project) — orphan database
 - No clear build pipeline: APKs built ad-hoc via manual `gradlew assembleDebug`
 - No CI/CD: no GitHub Actions, no automated tests
 - `the-irrig8-project/IP/` has an `ARCHIVED_2026-03-24_FARMSENSE_BRAND/` folder — correctly archived but date-stamped archive in active IP folder
 
 **Findings:**
-- `file 'farmsense-code/'` — active Postgres data + docker-compose + full edge-compute code
+- `file 'irrig8-code/'` — active Postgres data + docker-compose + full edge-compute code
 - `file 'postgres-data/'` — orphan DB at workspace root
 - `file 'Bxthre3/projects/the-irrig8-project/IP/ARCHIVED_2026-03-24_FARMSENSE_BRAND/'` — correctly archived but in active folder
 
-**Action:** Clean up legacy FarmSense codebase (move to archive or delete). Establish build pipeline.
+**Action:** Clean up legacy Irrig8 codebase (move to archive or delete). Establish build pipeline.
 
 ---
 
@@ -227,7 +227,7 @@ The Bxthre3 workspace has significant structural integrity issues stemming from 
 - `VPC-Cash-Partner-Deck.html` contains deal terms — tracked in git (should be `.gitignore`d)
 - No `.gitignore` — sensitive documents can be accidentally committed
 - No secret scanning in place
-- `farmsense-code/` may contain legacy credentials
+- `irrig8-code/` may contain legacy credentials
 
 **Findings:**
 - `file 'Bxthre3/INBOX/investor-portal-db.json'` — in git (should not be)
@@ -241,7 +241,7 @@ The Bxthre3 workspace has significant structural integrity issues stemming from 
 
 | # | Issue | Fix |
 |---|-------|-----|
-| P0.1 | FarmSense references in README | ✅ Replaced with Irrig8 |
+| P0.1 | Irrig8 references in README | ✅ Replaced with Irrig8 |
 | P0.2 | Nested `Bxthre3/Bxthre3/` directory | ✅ Deleted; `.gitmodules` cleaned |
 | P0.3 | Loose APKs at workspace root | ✅ Moved to project directories |
 | P0.4 | 32 orphaned agent INBOXes | ✅ Archived to `INBOX/agents/ARCHIVED/` |
@@ -257,7 +257,7 @@ The Bxthre3 workspace has significant structural integrity issues stemming from 
 | P1.2 | VPC-Native/ Gradle source at root | High | Drew |
 | P1.3 | 4 orphaned projects need owner or archive | High | Brodiblanco |
 | P1.4 | Zo Space no uptime/ error monitoring | Medium | AgentOS |
-| P1.5 | `farmsense-code/` legacy cleanup | Medium | Maya |
+| P1.5 | `irrig8-code/` legacy cleanup | Medium | Maya |
 | P1.6 | Investor-portal-db.json in git | High | Taylor |
 | P1.7 | AgentOS API health endpoints inconsistent | Medium | Drew |
 | P1.8 | Zoe merge decision pending | Medium | Brodiblanco |
@@ -285,7 +285,7 @@ The Bxthre3 workspace has significant structural integrity issues stemming from 
 
 Items that improved during this assessment:
 
-1. **README accuracy** — FarmSense removed, 13 projects listed correctly
+1. **README accuracy** — Irrig8 removed, 13 projects listed correctly
 2. **INBOX signal-to-noise** — 73% noise reduction (44 → 12 active agents)
 3. **Nested structure violation** — `Bxthre3/Bxthre3/` deleted
 4. **APK hygiene** — all APKs in project directories
@@ -297,7 +297,7 @@ Items that improved during this assessment:
 
 Items that degraded or remained unresolved:
 
-1. **Legacy FarmSense codebase** — `farmsense-code/` still active with running Postgres
+1. **Legacy Irrig8 codebase** — `irrig8-code/` still active with running Postgres
 2. **Git history pollution** — sensitive files (investor db, VPC deck HTML) committed
 3. **Submodule staleness** — 2 of 6 submodules showing dirty state for weeks
 4. **Build artifact tracking** — VPC-Native/ Gradle sources at root (not build output)

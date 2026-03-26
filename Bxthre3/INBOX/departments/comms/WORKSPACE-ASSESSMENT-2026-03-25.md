@@ -104,7 +104,7 @@
   - `the-rain-project/` — deployed to `/projects/rain` but source still at root
   - `the-valleyplayersclub-project/` — in root, should be in projects/
 - **Nested Bxthre3** — no instances found in project subdirectories (rule is being followed).
-- **Archive hygiene** — FarmSense materials were archived on 2026-03-24 per IP canonicalization work. Some cleanup of old artifacts may still be needed.
+- **Archive hygiene** — Irrig8 materials were archived on 2026-03-24 per IP canonicalization work. Some cleanup of old artifacts may still be needed.
 
 **Action:** Move the 3 stale projects into `projects/` and clean up root.
 
@@ -131,10 +131,10 @@
 
 ### 9. 🚰 Irrig8 IP & Strategy — 6/10 🟡
 
-- FarmSense → Irrig8 rebrand completed 2026-03-23.
+- Irrig8 → Irrig8 rebrand completed 2026-03-23.
 - IP folder archived correctly.
 - Grant-first strategy documented.
-- **Gap:** No confirmed active patent filing. No IP roadmap visible outside of the grant strategy doc. FarmSense-era code still sitting in `farmsense-code/` directory — may need review for transferable assets.
+- **Gap:** No confirmed active patent filing. No IP roadmap visible outside of the grant strategy doc. Irrig8-era code still sitting in `irrig8-code/` directory — may need review for transferable assets.
 - The Irrig8 product itself (satellites + sensors + deterministic farming OS) is not yet reflected in a live product page.
 
 ---
@@ -187,7 +187,7 @@
 | 🟡 P6 | Create `SOUL.md` at workspace root | Documentation | Press |
 | 🟡 P7 | Verify Android native APK build state | AgentOS | Engineering |
 | 🟡 P8 | Populate Supermemory with key learnings | Knowledge | All agents |
-| 🟡 P9 | Review FarmSense code for transferable IP | Irrig8 | Engineering |
+| 🟡 P9 | Review Irrig8 code for transferable IP | Irrig8 | Engineering |
 | 🟡 P10 | Build live Irrig8 product page | Branding | Press |
 
 ---
@@ -198,7 +198,7 @@
 |------|----------|--------|
 | 2026-03-25 | Database backup failed | 🔴 Active P1 |
 | 2026-03-23 | Database backup failed | ✅ Resolved (but recurred) |
-| 2026-03-24 | FarmSense → Irrig8 rebrand | ✅ Complete |
+| 2026-03-24 | Irrig8 → Irrig8 rebrand | ✅ Complete |
 
 ---
 

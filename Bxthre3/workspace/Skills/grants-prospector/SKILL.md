@@ -24,7 +24,7 @@ Identifies grant opportunities for Bxthre3 ventures.
 Run via: `python3 /home/workspace/Skills/grants-prospector/scripts/scan.py <venture> [limit]`
 
 Arguments:
-- `venture` — irriga8, rain, agentos, starting5 (or `all`)
+- `venture` — irrig8, rain, agentos, starting5 (or `all`)
 - `limit` — max results to return (default: 20)
 
 Output: list of prospective grants with funder, program name, estimated range, deadline, and match score.

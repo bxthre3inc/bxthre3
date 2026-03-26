@@ -8,7 +8,7 @@ Own video, podcast, and multimedia content production across all Bxthre3 venture
 
 ## Scope by Venture
 
-### Irrig8 (formerly FarmSense)
+### Irrig8 (formerly Irrig8)
 - Field demo videos
 - Farmer testimonial videos
 - How-to irrigation tutorials

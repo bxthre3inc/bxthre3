@@ -40,7 +40,7 @@ Operations focused on grant pipeline audit and unified dashboard creation. All v
 |----------|------|--------------|
 | P2 | ESTCP suspended - project disorganized | grants dept |
 | P2 | The Starting 5 needs definition sprint | Atlas |
-| P2 | FarmSense funding gate remains active | INBOX.md |
+| P2 | Irrig8 funding gate remains active | INBOX.md |
 | P2 | No human team hire confirmed for grant applications | Atlas |
 
 **Total Escalations:** 4

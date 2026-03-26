@@ -5,9 +5,9 @@ url: "https://airtable.com/invite/l?inviteId=invRbAcB7cwMmDdV1&inviteToken=97b1f
 
 Everyone's app platform
 
-FarmSense invited you!
+Irrig8 invited you!
 ----------------------
 
-Create an account to start working with FarmSense in AgentOS Base
+Create an account to start working with Irrig8 in AgentOS Base
 
 or

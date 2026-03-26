@@ -41,8 +41,8 @@
 
 | Service | Port | Status |
 |---------|------|--------|
-| FarmSense API | 8001 | DOWN |
-| FarmSense Frontend | 5174 | DOWN |
+| Irrig8 API | 8001 | DOWN |
+| Irrig8 Frontend | 5174 | DOWN |
 | VPC Edge | 3001 | DOWN |
 | PostgreSQL | 5432 | DOWN |
 

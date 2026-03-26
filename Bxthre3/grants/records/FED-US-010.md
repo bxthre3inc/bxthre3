@@ -55,7 +55,7 @@
 | days_until_deadline | 282 |
 | urgency | LOW |
 | next_action_date | 2026-03-24 |
-| next_action_description | Align with FarmSense satellite data pipeline |
+| next_action_description | Align with Irrig8 satellite data pipeline |
 
 ---
 
@@ -114,7 +114,7 @@
 
 **Notes:** AgREADI program. Check if satellite-soil moisture fusion qualifies.
 
-**Next Action:** Align with FarmSense satellite data pipeline
+**Next Action:** Align with Irrig8 satellite data pipeline
 
 **Status:** Not yet contacted
 

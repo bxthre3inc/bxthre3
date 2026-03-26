@@ -14,7 +14,7 @@ IP-Legal focused on patent architecture review and trademark monitoring. Water C
 **Key Findings:**
 - Provisional patent filing due April 23, 2026
 - VPC legal docs ready for attorney review
-- FarmSense trademark monitoring active
+- Irrig8 trademark monitoring active
 - Water Court evidence has CRITICAL GAPS
 
 ---

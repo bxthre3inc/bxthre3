@@ -112,7 +112,7 @@
 
 ## SECTION 8: HOW TO WIN
 
-**Notes:** USDA NIFA administers. Phase I proof-of-concept. Strong fit with FarmSense deterministic OS.
+**Notes:** USDA NIFA administers. Phase I proof-of-concept. Strong fit with Irrig8 deterministic OS.
 
 **Next Action:** Draft SF-424, pull pilot data from LRZ1/LRZ2 sensors
 
