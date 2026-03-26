@@ -1,29 +1,24 @@
-# Pulse Health Check - 2026-03-26
+# Pulse Health Check Report
 
-**Timestamp:** 2026-03-26T05:55:00 UTC
+**Timestamp:** 2026-03-26T06:05:00 UTC
 
 ## Systems Status
 
 | System | Status | Response Time | Notes |
 |--------|--------|---------------|-------|
-| zo.space | ✅ Healthy | 0.64s | HTTP 200 |
-| AgentOS API (localhost:3099) | ⚠️ Offline | 1.7ms | Returns 404 - service not running on local port |
-| AgentOS API (via zo.space) | ✅ Healthy | 0.53s | `/api/agentos/status` returns 200 |
-| n8n connector hub | ✅ Healthy | 0.66s | HTTP 200 |
-| Airtable | ✅ Connected | - | getfarmsense@gmail.com |
-| Linear | ✅ Connected | - | getfarmsense@gmail.com |
-| Gmail | ✅ Connected | - | getfarmsense@gmail.com |
-| Google Calendar | ✅ Connected | - | getfarmsense@gmail.com |
+| zo.space | ✅ Healthy | 0.78s | HTTP 200 |
+| AgentOS API | ⚠️ 404 | 0.002s | `/api/agentos` not found |
+| n8n hub | ✅ Healthy | 0.61s | HTTP 200 |
+| Airtable | ✅ Connected | - | OAuth active |
+| Linear | ✅ Connected | - | OAuth active |
+| Gmail | ✅ Connected | - | OAuth active |
+| Google Calendar | ✅ Connected | - | OAuth active |
 
-## Notes
+## Findings
 
-- AgentOS service at localhost:3099 is not running. However, AgentOS API functionality is available via zo.space routes (`/api/agentos/*`).
-- All integrations (Airtable, Linear, Gmail, Google Calendar) are connected and operational.
+- **P3 Issue:** AgentOS API endpoint `/api/agentos` returns HTTP 404. The localhost:3099 server is responding (serves Zo app HTML) but the specific AgentOS API path doesn't exist or has been moved.
 
-## Escalation
+## Action Taken
 
-- No P1 or P2 escalations required.
-- P3: AgentOS local service (localhost:3099) not running - may need attention if local API access is required.
-
----
-*Next check: Scheduled on interval*
+- Logged findings to agent inbox
+- No escalation triggered (P3 only)

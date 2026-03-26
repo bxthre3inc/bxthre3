@@ -3,6 +3,8 @@ package com.bxthre3.agentos.data.api
 import com.bxthre3.agentos.domain.model.*
 import com.google.gson.*
 import okhttp3.OkHttpClient
+import okhttp3.Interceptor
+import okhttp3.Request
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.lang.reflect.Type
@@ -11,6 +13,10 @@ import java.util.concurrent.TimeUnit
 object AgentOSApiService {
     // Points to the Android-optimized endpoint on zo.space
     private const val BASE_URL = "https://brodiblanco.zo.space/api/agentos/"
+    
+    // SECURITY: This token MUST match AGENTOS_API_TOKEN in zo.space settings
+    // For production, move to BuildConfig or secure storage
+    private const val API_TOKEN = "1dc4fec3e212a285283d8798615f97b9416c7db9c3f00b6fe17fa8fc17b9f674"
 
     private val gson: Gson by lazy {
         GsonBuilder()
@@ -22,7 +28,18 @@ object AgentOSApiService {
             .create()
     }
 
+    private val authInterceptor = Interceptor { chain ->
+        val original: Request = chain.request()
+        val request: Request = original.newBuilder()
+            .header("Authorization", "Bearer $API_TOKEN")
+            .header("Accept", "application/json")
+            .method(original.method, original.body)
+            .build()
+        chain.proceed(request)
+    }
+
     private val okHttpClient = OkHttpClient.Builder()
+        .addInterceptor(authInterceptor)
         .connectTimeout(30, TimeUnit.SECONDS)
         .readTimeout(30, TimeUnit.SECONDS)
         .writeTimeout(30, TimeUnit.SECONDS)
